@@ -1,0 +1,135 @@
+body{
+    margin: auto;
+}
+
+header {
+    border-bottom: 4px solid yellow;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bolder;
+    font-size: 13pt;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.capitalized {
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+}
+
+.page_title {
+    font-size: 25pt;
+    color: yellow;
+}
+
+h2 {
+    background-color: lightgrey;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+.crossout {
+    text-decoration-line: line-through;
+    color: grey;
+}
+
+.underline {
+    border-bottom: 3px solid yellow;
+}
+
+.row {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.col {
+    box-sizing: border-box;
+    width: 33.33%;
+}
+
+h3 {
+    font-size: 20pt;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 15pt;
+    line-height: 1.5em;
+    font-family: Arial;
+}
+
+.button {
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+    font-size: 15pt;
+    font-weight: 800;
+    width: 100%;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 3px 0px grey;
+}
+
+.image_box {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.catchy_container {
+    width: 33%;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.yellow_button {
+    background-color: yellow;
+    box-shadow: 0px 3px 0px rgb(165, 165, 0);
+}
+
+.right_border {
+    border-right: 1px solid rgb(175, 175, 175);
+}
+
+.footer {
+    background-color: black;
+}
